@@ -1,0 +1,219 @@
+/* mobile & tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobide-tablet {
+        display: none;
+    }
+
+    .header__navbar {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .header__navbar-mobile-icon {
+        display: block;
+    }
+
+    .slider-background {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .slider-background-item {
+        width: 100%;
+    }
+
+    .search__select {
+        width: 100%;
+    }
+
+    .slider-background-item {
+        margin: 15px 0px;
+    }
+
+    .booking {
+        text-align: center;
+    }
+
+    a.booking-now {
+        transform: translateX(-50%);
+    }
+
+    .row.no-gutters {
+        display: block;
+    }
+    
+    .footer__sub-info-wrap {
+        text-align: center;
+    }
+
+    .footer__sub-info-1 {
+        padding: 46px 46px 46px 46px;
+    }
+
+    .footer__social-icon {
+        /* width: 150px; */
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .footer__sub-info-col-2 {
+        padding: 0px 15px 45px 15px;
+    }
+
+    .footer__sub-info-2 {
+        text-align: center;
+    }
+
+    
+
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    /* .content__packages-text-section {
+        flex-direction: column;
+    } */
+
+    .content__packages-text-section-wrap {
+        padding-bottom: 10px;
+    }
+
+    .footer__sub-info-2-text-right {
+        font-size: 12px;
+        line-height: 46px;
+        letter-spacing: 2px;
+        color: #fff;
+        position: relative;
+        left: 0;
+    }
+
+    .destination-item-infor-icon {
+        top: 375px;
+    }
+
+    .content-section-img-paragrap {
+        top: 275px;
+        position: relative;
+    }
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .search__select {
+        min-width: 300px;
+    }
+
+    .section-heading {
+        margin-bottom: 25px;
+    }
+
+    .content-section-grid {
+        padding: 0 45px;
+    }
+
+    h2.section-heading {
+        padding: 0 45px;
+    }
+
+    li.content__packages-text-section {
+        flex-direction: column;
+    }
+
+    .grid.wide.content__booking {
+        padding: 0 45px;
+    }
+
+    .booking-time {
+        flex-direction: column;
+    }
+
+    .booking-time-item {
+        width: 100%;   
+    }
+
+    .booking-time-item-other {
+        width: 100%;
+    }
+
+    .grid.wide.recommend__tours {
+        padding: 0 45px;
+    }
+
+
+    .footer-container {
+        padding: 45px 45px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer__text-content {
+        text-align: center;
+    }
+
+    .footer-input {
+        flex-direction: column;
+        /* align-items: center; */
+        width: 100%;
+    }
+
+    input.footer__text-content-input {
+        width: 100%;
+    }
+
+    a.footer__text-content-send {
+        width: 100%;
+    }
+
+    .content-wrap-holiday {
+        flex-direction: column;
+        padding: 80px 60px;
+    }
+
+    .content-holiday-text {
+        text-align: center;
+        padding-bottom: 39px;
+    }
+
+    span.footer__sub-info-2-text-left {
+        margin: 0;
+        line-height: 24px;
+    }
+
+    .footer__sub-info-2-text-right {
+        font-size: 12px;
+        line-height: 46px;
+        letter-spacing: 2px;
+        color: #fff;
+        position: relative;
+        left: 0;
+    }
+
+    .destination-item-infor-icon {
+        top: 155px;
+    }
+
+    .slider-conteiner {
+        padding: 0 60px;
+    }
+
+    .booking-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content-section-img-paragrap {
+        position: relative;
+        top: -75px;
+    }
+}
